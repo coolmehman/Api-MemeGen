@@ -1,0 +1,33 @@
+body{
+  margin:0;
+  background-color:beige;
+}
+
+main,footer,header{
+  margin: 5px 10px;
+}
+
+main{
+  display:flex;
+  flex-direction:column;
+}
+
+section {
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+}
+
+section div .meme{
+  min-width:200px;
+  max-width:300px;
+}
+button{
+  max-width:200px;
+}
+
+#memes {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
